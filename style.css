@@ -1,0 +1,70 @@
+body{
+
+background-color: #4a6289;
+
+}
+
+/*buttons for the shows*/
+.tvShow{
+	background-color: grey; 
+    border: solid black;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 32px;
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 16px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+#addTV {
+    background-color: grey; 
+    border: solid black;
+    border-radius: 15px;
+    color: white;
+    padding: 2px 22px;
+    margin: 5px 22px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 12px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    float: right;
+}
+
+.tvShow:hover{
+    opacity: .5;
+}
+
+/* this is the div where the gifs go*/
+#tvShows{                       
+
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+/* gifs*/
+.item{
+
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+/* the form */
+#tv-form{
+    float: right;
+}
+
+/*div that holds the gifs and form*/
+#holder{
+    height: 100%;
+    overflow: hidden;
+}
