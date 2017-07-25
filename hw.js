@@ -4,7 +4,7 @@ function displayTV(){
         $("#tvShows").empty();
     	var show = $(this).attr("data-name");
     	console.log (show);
-    	var queryURL = "http://api.giphy.com/v1/gifs/search?q="+show+"&limit=10&api_key=a6ff36fa221e48c9b79ab5492a3889ed"
+    	var queryURL = "https://api.giphy.com/v1/gifs/search?q="+show+"&limit=10&api_key=a6ff36fa221e48c9b79ab5492a3889ed"
 
     	$.ajax({
     		url: queryURL,
